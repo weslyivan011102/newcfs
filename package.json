@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "@headlessui/react": "^2.0.0",
+        "@inertiajs/react": "2.0",
+        "@tailwindcss/forms": "^0.5.3",
+        "@tanstack/eslint-plugin-query": "^5.62.9",
+        "@vitejs/plugin-react": "^4.2.0",
+        "autoprefixer": "^10.4.12",
+        "axios": "^1.7.9",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^1.0",
+        "postcss": "^8.4.31",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "tailwindcss": "^3.2.1",
+        "vite": "^6.0"
+    },
+    "dependencies": {
+        "@fontsource/dancing-script": "^5.1.1",
+        "@fontsource/great-vibes": "^5.1.1",
+        "@heroicons/react": "^2.2.0",
+        "@material-tailwind/react": "^2.1.10",
+        "@tanstack/react-query": "^5.62.11",
+        "apexcharts": "^4.7.0",
+        "date-fns": "^4.1.0",
+        "dayjs": "^1.11.13",
+        "qrcode.react": "^4.2.0",
+        "react-apexcharts": "^1.7.0",
+        "react-icons": "^5.4.0",
+        "react-select": "^5.9.0",
+        "react-to-print": "^3.1.1"
+    }
+}

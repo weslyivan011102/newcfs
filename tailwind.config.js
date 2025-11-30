@@ -1,0 +1,27 @@
+import defaultTheme from "tailwindcss/defaultTheme";
+import forms from "@tailwindcss/forms";
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+/** @type {import('tailwindcss').Config} */
+module.exports = withMT({
+    content: [
+        "./vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php",
+        "./storage/framework/views/*.php",
+        "./resources/views/**/*.blade.php",
+        "./resources/js/**/*.jsx",
+    ],
+
+    theme: {
+        extend: {
+            fontFamily: {
+                sans: ["Figtree", ...defaultTheme.fontFamily.sans],
+                cursive: ["Dancing Script", "cursive"],
+            },
+            gridTemplateColumns: {
+                '40/60': '40% 60%',
+              },
+        },
+    },
+
+    plugins: [forms],
+});

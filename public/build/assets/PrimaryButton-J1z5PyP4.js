@@ -1,0 +1,5 @@
+<<<<<<<< HEAD:public/build/assets/PrimaryButton-J1z5PyP4.js
+import{j as o}from"./app-DLDUMbf_.js";function s({className:e="",disabled:t,children:r,...n}){return o.jsx("button",{...n,className:` inline-flex items-center justify-center rounded-md border border-transparent bg-blue-600 px-4 py-2 text-xs font-semibold uppercase tracking-widest text-white transition duration-150 ease-in-out hover:bg-blue-500 focus:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 active:bg-gray-900 ${t&&"opacity-25"} `+e,disabled:t,children:r})}export{s as P};
+========
+import{j as o}from"./app-BdyLqLlc.js";function s({className:e="",disabled:t,children:r,...n}){return o.jsx("button",{...n,className:` inline-flex items-center justify-center rounded-md border border-transparent bg-blue-600 px-4 py-2 text-xs font-semibold uppercase tracking-widest text-white transition duration-150 ease-in-out hover:bg-blue-500 focus:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 active:bg-gray-900 ${t&&"opacity-25"} `+e,disabled:t,children:r})}export{s as P};
+>>>>>>>> c432348 (git):public/build/assets/PrimaryButton-BTsm23wl.js

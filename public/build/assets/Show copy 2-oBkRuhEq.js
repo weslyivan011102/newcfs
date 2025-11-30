@@ -1,0 +1,19 @@
+<<<<<<<< HEAD:public/build/assets/Show copy 2-4NAAKphI.js
+import{a as i,j as s,M as c,r}from"./app-DLDUMbf_.js";import{A as o}from"./AuthenticatedLayout-DISThC0w.js";import{l as d}from"./index-CNWVK9_v.js";import"./NavLink-_jzZh8Kt.js";import"./index-5Q2pxwOT.js";const f=({transaction:a,collectors:l,latest:n})=>{const e=i.useRef(),t=d.useReactToPrint({contentRef:e,pageStyle:`
+========
+import{a as i,j as s,M as c,r}from"./app-BdyLqLlc.js";import{A as o}from"./AuthenticatedLayout-C8D8eUzt.js";import{l as d}from"./index-BzPIjsZP.js";import"./NavLink-BvgaK94k.js";import"./index-B7gYL_ii.js";const f=({transaction:a,collectors:l,latest:n})=>{const e=i.useRef(),t=d.useReactToPrint({contentRef:e,pageStyle:`
+>>>>>>>> c432348 (git):public/build/assets/Show copy 2-oBkRuhEq.js
+      @page {
+         size: auto;
+         margin: 10mm;
+      }
+      @media print {
+         body {
+            -webkit-print-color-adjust: exact !important;
+         }
+         .print-area {
+            transform: scale(0.48);   /* ✅ scale down */
+            transform-origin: top left; /* ✅ keep it aligned */
+         }
+      }
+   `});return console.log("Transaction:",a),console.log("Collectors:",l),console.log("Latest:",n),s.jsxs(o,{children:[s.jsx(c,{title:"Batch Bill"}),s.jsx("div",{className:"flex justify-center mb-5",children:s.jsx(r.Button,{variant:"gradient",color:"green",onClick:()=>t(),children:"Print"})}),s.jsxs("div",{ref:e,className:"print-area max-w-md mx-auto bg-white p-6 border border-gray-300 rounded-md font-mono text-sm",children:[s.jsxs("div",{className:" mb-4",children:[s.jsx("h2",{className:"font-bold text-lg",children:"ANGIELEN AGCAOILI"}),s.jsx("p",{children:"September 02, 2025"}),s.jsxs("p",{children:["#2, Manguelod Bldg. National High Way ",s.jsx("br",{}),"District II, Tumauini, Isabela"]})]}),s.jsxs("div",{className:"space-y-1 mb-4",children:[s.jsxs("p",{children:["TIN: ",s.jsx("span",{className:"ml-2",children:"295-973-965-001"})]}),s.jsxs("p",{children:["CP#: ",s.jsx("span",{className:"ml-2",children:"09453367030"})]}),s.jsxs("p",{className:"flex justify-between",children:["Acct. No: ",s.jsx("span",{className:"ml-2",children:"149"})]}),s.jsxs("p",{className:"flex justify-between",children:["Bill No: ",s.jsx("span",{className:"ml-2",children:"259-0007"})]}),s.jsxs("p",{className:"flex justify-between",children:["Bill for the month of August",s.jsx("span",{className:"ml-2 font-semibold",children:"₱1200.00"})]}),s.jsxs("p",{className:"flex justify-between",children:["Rebate ",s.jsx("span",{className:"ml-2",children:"₱0.00"})]}),s.jsxs("p",{className:"flex justify-between",children:["Partial ",s.jsx("span",{className:"ml-2",children:"₱1000.00"})]}),s.jsxs("p",{className:"flex justify-between",children:["Outstanding ",s.jsx("span",{className:"ml-2",children:"₱200"})]}),s.jsxs("p",{className:"flex justify-between",children:["Balance Previous Month",s.jsx("span",{className:"ml-2",children:"₱0.0"})]}),s.jsxs("p",{className:"font-bold flex justify-between",children:["Total Amount Due: ",s.jsx("span",{className:"ml-2",children:"₱1400.00"})]})]}),s.jsxs("div",{className:"mb-4",children:[s.jsxs("p",{className:"flex justify-between",children:["Prepared by: ",s.jsx("span",{className:"font-semibold",children:"John"})]}),s.jsxs("p",{className:"flex justify-between",children:["Collector:"," ",s.jsx("span",{className:"font-semibold",children:"BALMAR BILIZARBARCELO"})]}),s.jsx("p",{children:"September 02, 2025"})]}),s.jsx("div",{className:"mb-4",children:s.jsxs("p",{children:[s.jsx("span",{className:"font-bold",children:"7 Days Notice:"})," To avoid temporary disconnection kindly settle your bill within 7 days of the due date."]})}),s.jsxs("div",{children:[s.jsx("p",{children:"For assistance or to make a payment please call:"}),s.jsx("p",{className:"font-bold",children:"CUSTOMER SERVICE NO: 09453367030"}),s.jsx("p",{className:"font-bold",children:"BILLING DEPT. CP NO: 09162832206"})]})]})]})};export{f as default};
