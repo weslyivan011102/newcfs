@@ -95,17 +95,10 @@ Route::get('/transaction-summary', [DashboardController::class, 'transactionSumm
 Route::get('/municipalities', [MunicipalityController::class, 'municipalitiesWithBarangays']);
 Route::get('/municipalities/{id}/barangays', [MunicipalityController::class, 'barangaysByMunicipality']);
 Route::get('/customers/count-by-municipality', [MunicipalityController::class, 'countByMunicipality']);
-<<<<<<< HEAD
 
-=======
-Route::get('/customers/count-by-barangays', [BarangayController::class, 'countByBarangays']);
->>>>>>> c432348 (git)
 
 Route::get('/collectors', function () {
     return Collector::select('id', 'firstname')->get();
 });
-<<<<<<< HEAD
-=======
 
-Route::get('/raw_collections', [RawCollectionController::class, 'index']);
->>>>>>> c432348 (git)
+
